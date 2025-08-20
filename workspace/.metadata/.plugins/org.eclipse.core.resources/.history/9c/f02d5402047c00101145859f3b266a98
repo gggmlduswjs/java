@@ -1,0 +1,19 @@
+package ch01.dataType;
+
+/*
+ * 6. 논리 연산자 : &, |, ^ (이진 논리 연산자)
+ * 				&&, || (일반 논리 연산자)
+ * 
+ * */
+
+public class Exam08 {
+
+	public static void main(String[] args) {
+		
+		byte a=10;
+		byte b=2;
+		System.out.println("a&b"+(a&b));
+		
+	}
+
+}

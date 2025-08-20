@@ -1,0 +1,34 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 제어문 - break, continue
+ */
+public class Exam30 {
+
+	public static void main(String[] args) {
+		
+		for(int i=1;i<=10;i++) {
+			if(i==5) {
+				break;	// if 제외한 가장 가까운 블럭으로 빠져나간다.
+			}
+			
+			System.out.println(i);
+		}
+		
+		System.out.println();
+		
+		for(int i=1;i<=10;i++) {
+			if(i==5) {
+				continue;
+			}
+			
+			System.out.println(i);
+		}
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package ch01.dataType;
+
+/*
+ * 단항연산자 : !(일반부정), ~(이진 또는 비트 부정), +/-
+ * 				++/-- (전위형 중감 연산자 / 2, 후위형 증감 연산자 / 9)
+ * 				(cast) 또는 (자료형)
+ * */
+
+public class Exam04 {
+
+	public static void main(String[] args) {
+		
+		byte a=10;
+		byte b=a;	// 동일 자료형 또는 큰 자료형 
+		System.out.println(a+"\t"+b);
+		
+		short c=20;
+		byte d=(byte) c;
+		// 큰거를 작은거에 낑겨넣으면 에러가 걸림
+		// 바이트로 바꾸면 가능함
+		System.out.println(c +"\t"+d);
+		
+		float i=11.1f;
+		double j=12.2;
+		double k=i+j;
+		
+		
+	}
+}

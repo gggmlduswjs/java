@@ -1,0 +1,44 @@
+package ch02.control;
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 
+ */
+
+public class Exam32 {
+	public static void main(String[] args) {
+		
+		int x=0;		//초기값
+		while(x<=10) {	//조건값 5<=10	
+			++x; 		//증감값 5
+			if(x==5) {	// 5==5
+				// break;
+				continue;
+			}
+			
+			System.out.println(x);	// 1 2 3 4
+			
+		}
+		System.out.println();
+		
+		int y=1; // 초기값
+		
+		do {
+			if(y==5) {
+				break;
+			}
+			
+			System.out.print(y+"\t");
+			++y;		//증감값
+			
+		}while(y<=10);	//조건값
+		
+		System.out.println();	
+
+		
+	}
+	
+	
+}

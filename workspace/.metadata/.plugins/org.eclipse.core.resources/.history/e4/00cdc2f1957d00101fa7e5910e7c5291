@@ -1,0 +1,36 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 표준 입출력
+ */
+
+import java.util.Scanner;
+
+public class Exam34 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		
+		// 임의의 두수를 입력 받아서 큰 수를 출력
+		System.out.println("첫번째 수:");
+		int su=sc.nextInt();
+		
+		System.out.println("두번째 수:");
+		int value =sc.nextInt();
+		
+		if(su>value) {
+			System.out.println(su);
+		}else {
+			System.out.println(value);
+		}
+		
+		// 임의의 수를 입력 받은 만큼 java 반복 출력하세요.		
+
+	}
+
+}

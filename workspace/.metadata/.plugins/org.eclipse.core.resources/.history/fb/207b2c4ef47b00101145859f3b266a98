@@ -1,0 +1,25 @@
+package ch01.dataType;
+
+/*
+ * 단항연산자 : !(일반부정), ~(이진 또는 비트 부정), +/-
+ * 				++/-- (전위형 중감 연산자 / 2, 후위형 증감 연산자 / 9)
+ * 
+ * */
+
+
+public class Exam03 {
+
+	public static void main(String[] args) {
+		
+		int x=10;
+		x++; // 11 후위형 증감 연산자
+		++x; // 12 전위형 증감 연산자
+		
+		System.out.println(x);
+		
+		--x;
+		
+		
+	}
+
+}

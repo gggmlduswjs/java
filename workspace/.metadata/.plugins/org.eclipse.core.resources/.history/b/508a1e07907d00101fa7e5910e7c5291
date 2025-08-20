@@ -1,0 +1,19 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 표준 입출력
+ */
+public class Exam33 {
+
+	public static void main(String[] args) {
+		
+		String a="apple"; // view
+		int x=10;		  // view
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package ch02.control;
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 
+ */
+
+public class Exam32 {
+	public static void main(String[] args) {
+		
+		int x=1;		//초기값
+		while(x<=10) {	//조건값
+			System.out.println(x);
+			++x; 		//증감값
+		}
+		System.out.println();
+		
+		
+		
+	}
+}

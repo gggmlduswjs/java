@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package ch02.control;
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 
+ */
+public class Exam24 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

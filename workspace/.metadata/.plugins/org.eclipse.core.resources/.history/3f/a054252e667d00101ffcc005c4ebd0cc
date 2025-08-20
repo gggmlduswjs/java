@@ -1,0 +1,38 @@
+package ch02.control;
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 제어문-for반복문
+ */
+public class Exam23 {
+
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int su=0;
+		
+		for(int i=0;i<10;i++) {
+			
+			System.out.println(++su);
+			
+		}
+		
+		System.out.println();
+		
+		int hap=0;
+		
+		for(int i=1;i<=10;i++) {
+		    hap=hap+i;	//hap+=i; 얘가 속도가 좀 더 빠르긴 함
+			
+		}
+		
+		System.out.println(hap);
+		
+		
+
+	}
+
+}

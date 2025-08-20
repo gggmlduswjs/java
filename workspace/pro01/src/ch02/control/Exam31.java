@@ -1,0 +1,55 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 20.
+ * @작성자 : 전희연
+ * @설명 : 제어문 - break, continue
+ */
+public class Exam31 {
+
+	public static void main(String[] args) {
+		
+		for(int i=0;i<3;i++) {		// 0	1		2
+			for(int j=0;j<5;j++) {	// 0124	0124	0124
+				if(j==3) {
+					// break;
+					continue;
+				}
+				
+				System.out.println(i+"\t"+j);
+			}
+			
+			System.out.println();
+		}
+		
+		System.out.println("\n");
+		
+		AA : for(int i=0;i<3;i++) {	// 0	1	
+			for(int j=0;j<5;j++) {	// 012	012
+				if(j==3) {
+					//break AA;
+					continue AA;	// break
+				}
+				
+				System.out.println(i+"\t"+j);
+			}
+			
+			System.out.println();
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
