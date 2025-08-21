@@ -1,0 +1,21 @@
+package ch04.funtion;
+
+
+
+/**
+ * @날짜 :2025. 8. 21.
+ * @작성자 : 전희연
+ * @설명 : 
+ * 
+ * 		프로그램은 크게 두 가지로 구성
+ * 		데이터 : 자료형 활용해서 변수, 배열
+ * 		데이터 처리(기능) : 함수
+ */
+public class Exam46 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

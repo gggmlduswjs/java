@@ -1,0 +1,22 @@
+package ch03.array;
+
+
+/**
+ * @날짜 :2025. 8. 21.
+ * @작성자 : 전희연
+ * @설명 : 다차원 배열
+ */
+
+import java.util.Scanner;
+
+public class Exam43 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		sc.close();
+
+	}
+
+}

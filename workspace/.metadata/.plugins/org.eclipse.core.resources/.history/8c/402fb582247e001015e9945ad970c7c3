@@ -1,0 +1,23 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 21.
+ * @작성자 : 전희연
+ * @설명 : 반복문을 활용한 표준 입출력
+ */
+
+import java.util.Scanner;
+
+public class Exam35 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package ch02.control;
+
+
+
+/**
+ * @날짜 :2025. 8. 21.
+ * @작성자 : 전희연
+ * @설명 : 반복문을 활용한 표준 입출력
+ */
+
+import java.util.Scanner;
+
+public class Exam35 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		// 수치반복 : 초기값, 조건값, 증감값
+		
+		char ch1=0;	// int a=0; double b=0.0; char ch1=0; String str=null 또는 str="";
+		
+		do {	// key:y 반복, n 반복 종료
+			System.out.println("Hello java!!");
+			
+			System.out.println("반복 할래(y/n)");
+			
+			String str=sc.next(); // 문자열로 입력 받음
+			ch1=str.charAt(0);	// 문자 바꾸는 과정
+			
+			if(ch1=='n'|| ch1=='N') { 
+				System.out.println("종료합니다.");
+				break;
+			}
+			
+			
+		}while(ch1=='y'||ch1=='Y');
+		
+		
+		sc.close();
+
+	}
+
+}

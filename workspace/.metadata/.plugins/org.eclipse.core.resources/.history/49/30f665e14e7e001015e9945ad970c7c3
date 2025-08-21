@@ -1,0 +1,19 @@
+package ch03.array;
+
+
+
+/**
+ * @날짜 :2025. 8. 21.
+ * @작성자 : 전희연
+ * @설명 : 
+ */
+
+
+public class Exam44 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
