@@ -18,9 +18,9 @@ class TestG {		// TestG a=new TestG(...)
 		TestG.iyul=iyul;
 		System.out.println(TestG.iyul);
 		
-		System.out.println(name);
-		
-		aa();
+//		System.out.println(name);
+//		
+//		aa();
 	}
 	
 //	public String name;
