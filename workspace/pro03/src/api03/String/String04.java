@@ -5,7 +5,8 @@ package api03.String;
 /**
  * @날짜 :2025. 8. 28.
  * @작성자 : 전희연
- * @설명 : String 클래스
+ * @설명 : String 클래스 - split()
+ * 						java.util.StringTokenizer
  */
 
 public class String04 {
